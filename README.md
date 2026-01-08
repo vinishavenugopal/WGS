@@ -1,48 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Wet-Lab Mosaicism Benchmarking Workflow</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Roboto, Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #1b3a4b;
-    }
-    pre, code {
-      background-color: #f4f4f4;
-      padding: 10px;
-      border-radius: 6px;
-      display: block;
-      overflow-x: auto;
-      font-family: "Courier New", monospace;
-    }
-    table {
-      border-collapse: collapse;
-      margin-top: 10px;
-      margin-bottom: 20px;
-      width: 100%;
-    }
-    table, th, td {
-      border: 1px solid #ccc;
-      padding: 8px;
-      text-align: center;
-    }
-    th {
-      background-color: #e0f0f8;
-    }
-    code.inline {
-      display: inline;
-      padding: 2px 4px;
-      border-radius: 4px;
-      background-color: #f0f0f0;
-    }
-  </style>
-</head>
 <body>
 
 <h1>🧬 Wet-Lab Mosaicism Benchmarking Workflow</h1>
@@ -255,3 +212,4 @@ Rscript scripts/plot_vaf_metrics.R results/metrics_summary.tsv results/plots/
 
 </body>
 </html>
+
